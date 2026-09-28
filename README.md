@@ -38,7 +38,7 @@ Earth Engine needs a Cloud project that is both API-enabled and registered at
 | `handle_data.py` | Earth Engine download, unit conversion, chunking |
 | `aqi.py` | EPA AQI from concentrations |
 | `dataset.py` | Features, sliding windows, chronological splits |
-| `net.py` | GRU encoder with quantile head |
+| `model.py` | GRU encoder with quantile head |
 | `train.py` | Training loop, baseline comparison, diagnostics |
 | `predict.py` | Inference from the most recent rows |
 
